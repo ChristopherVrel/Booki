@@ -558,7 +558,7 @@ body main , #nav {
         box-shadow: inset 0 -20px 0px -17px var(--blue);
     }
     #search-filter-container {
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
     .search-title-container h1 {
         font-size: 1.5rem;
@@ -576,6 +576,9 @@ body main , #nav {
     }
     .filter-container .filter-title {
         width: 100%;
+    }
+    .filter-container ul {
+        gap: 1rem;
     }
     .hosting-container .hosting-content {
         border-radius: unset;
