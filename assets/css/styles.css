@@ -160,47 +160,6 @@ body main , #nav {
 .filter-container .filter:hover * {
     cursor: pointer;
 }
-/* .filter-container .filter:hover .filter-background {
-    animation: filter-in .5s forwards;
-    box-shadow: inset 0 0 0 2px var(--blue);
-} */
-/* .filter-background {
-    height: 0;
-    width: 0;
-    background-color: #deebff;
-    position: absolute;
-    border-radius: 2rem;
-    z-index: -1;
-    animation: filter-out .5s;
-} */
-/* @keyframes filter-in {
-    0% {
-        height: 0;
-        width: 0;
-    }
-    300% {
-        height: 100%;
-    }
-    100% {
-        height: 100%;
-        width: 100%;
-    }
-}
-@keyframes filter-out {
-    0% {
-        height: 100%;
-        width: 100%;
-    }
-    30% {
-        height: 100%;
-    }
-    100% {
-        height: 0;
-        width: 0;
-    }
-} */
-
-
 .filter-container .filter i {
     position: absolute;
     z-index: 2;
